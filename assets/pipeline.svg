@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-label="How I build agentic RAG systems: ingest, index, retrieve, orchestrate, act via MCP, answer — animated pipeline">
+<title>How I build agentic RAG systems: ingest, index, retrieve, orchestrate, act via MCP, answer — animated pipeline</title>
+<defs><linearGradient id="qbd" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#36D7F0" stop-opacity=".55"/><stop offset=".5" stop-color="#1C2A42" stop-opacity=".9"/><stop offset="1" stop-color="#8B5CF6" stop-opacity=".55"/></linearGradient><radialGradient id="qg1" cx="0.85" cy="0.15" r="0.6"><stop offset="0" stop-color="#36D7F0" stop-opacity=".16"/><stop offset="1" stop-color="#36D7F0" stop-opacity="0"/></radialGradient><radialGradient id="qg2" cx="0.1" cy="0.95" r="0.6"><stop offset="0" stop-color="#8B5CF6" stop-opacity=".16"/><stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/></radialGradient><clipPath id="qclip"><rect x="1" y="1" width="1198" height="438" rx="18"/></clipPath><filter id="pg" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter><linearGradient id="flow" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#36D7F0"/><stop offset="1" stop-color="#8B5CF6"/></linearGradient></defs>
+
+<rect x="1" y="1" width="1198" height="438" rx="18" fill="#0A1120" stroke="url(#qbd)" stroke-width="1.5"/>
+<g clip-path="url(#qclip)"><rect width="1200" height="440" fill="url(#qg1)"/><rect width="1200" height="440" fill="url(#qg2)"/></g>
+<text x="48" y="54" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="15" fill="#36D7F0">// how i ship</text>
+<text x="48" y="88" font-family="Inter, 'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="30" font-weight="800" fill="#E6EDF7">Agentic RAG, end to end — in production</text>
+<path d="M70,296 L1130,296" stroke="#1C2A42" stroke-width="10" stroke-linecap="round"/>
+<path d="M70,296 L1130,296" stroke="url(#flow)" stroke-width="2" stroke-dasharray="6 10" opacity=".8"><animate attributeName="stroke-dashoffset" values="32;0" dur="1s" repeatCount="indefinite"/></path>
+<path id="loop" d="M1070,192 C1030,100 546,100 506,192" fill="none" stroke="#FBBF24" stroke-width="1.6" stroke-dasharray="5 7" opacity=".75"><animate attributeName="stroke-dashoffset" values="0;-24" dur="1s" repeatCount="indefinite"/></path>
+<circle r="4" fill="#FBBF24" filter="url(#pg)"><animateMotion dur="3s" repeatCount="indefinite" begin="1.5s"><mpath href="#loop" xlink:href="#loop"/></animateMotion><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.1;.9;1" dur="3s" begin="1.5s" repeatCount="indefinite"/></circle>
+<g transform="translate(788.0,122)"><rect x="-176" y="-16" width="352" height="30" rx="15" fill="#0E1729" stroke="#FBBF24" stroke-opacity=".6"/><text x="0" y="4.5" text-anchor="middle" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="14" fill="#FBBF24">↺ corrective loop (CRAG) if ungrounded</text></g>
+<g><animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0" dur="3.0s" repeatCount="indefinite"/>
+<ellipse cx="130" cy="296" rx="46" ry="12" fill="#000" opacity=".35"/>
+<path d="M80,210 L130,235 L130,281 L80,256Z" fill="#0C1628" stroke="#1C2A42" stroke-width="1" stroke-linejoin="round"/><path d="M180,210 L130,235 L130,281 L180,256Z" fill="#101C33" stroke="#1C2A42" stroke-width="1" stroke-linejoin="round"/><path d="M130,185 L180,210 L130,235 L80,210Z" fill="#13213A" stroke="#1C2A42" stroke-width="1" stroke-linejoin="round"/>
+<path d="M130,185 L180,210 L130,235 L80,210Z" fill="#36D7F0" opacity=".18"/>
+<path d="M130,185 L180,210 L130,235 L80,210Z" fill="#36D7F0" opacity="0" filter="url(#pg)"><animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.02;0.16;1" dur="6.0s" repeatCount="indefinite"/></path>
+<text x="130" y="215" text-anchor="middle" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="15" font-weight="700" fill="#36D7F0">01</text>
+</g>
+<text x="130" y="340" text-anchor="middle" font-family="Inter, 'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#E6EDF7">Ingest</text>
+<text x="130" y="366" text-anchor="middle" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="14.5" fill="#8A9BB4">PDF · image · text</text>
+<g><animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0" dur="3.4s" repeatCount="indefinite"/>
+<ellipse cx="318" cy="296" rx="46" ry="12" fill="#000" opacity=".35"/>
+<path d="M268,210 L318,235 L318,281 L268,256Z" fill="#0C1628" stroke="#1C2A42" stroke-width="1" stroke-linejoin="round"/><path d="M368,210 L318,235 L318,281 L368,256Z" fill="#101C33" stroke="#1C2A42" stroke-width="1" stroke-linejoin="round"/><path d="M318,185 L368,210 L318,235 L268,210Z" fill="#13213A" stroke="#1C2A42" stroke-width="1" stroke-linejoin="round"/>
+<path d="M318,185 L368,210 L318,235 L268,210Z" fill="#36D7F0" opacity=".18"/>
+<path d="M318,185 L368,210 L318,235 L268,210Z" fill="#36D7F0" opacity="0" filter="url(#pg)"><animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.1657;0.1867;0.3267;1" dur="6.0s" repeatCount="indefinite"/></path>
+<text x="318" y="215" text-anchor="middle" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="15" font-weight="700" fill="#36D7F0">02</text>
+</g>
+<text x="318" y="340" text-anchor="middle" font-family="Inter, 'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#E6EDF7">Embed + Index</text>
+<text x="318" y="366" text-anchor="middle" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="14.5" fill="#8A9BB4">Azure AI Search</text>
+<g><animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0" dur="3.8s" repeatCount="indefinite"/>
+<ellipse cx="506" cy="296" rx="46" ry="12" fill="#000" opacity=".35"/>
+<path d="M456,210 L506,235 L506,281 L456,256Z" fill="#0C1628" stroke="#1C2A42" stroke-width="1" stroke-linejoin="round"/><path d="M556,210 L506,235 L506,281 L556,256Z" fill="#101C33" stroke="#1C2A42" stroke-width="1" stroke-linejoin="round"/><path d="M506,185 L556,210 L506,235 L456,210Z" fill="#13213A" stroke="#1C2A42" stroke-width="1" stroke-linejoin="round"/>
+<path d="M506,185 L556,210 L506,235 L456,210Z" fill="#2EA1B5" opacity=".18"/>
+<path d="M506,185 L556,210 L506,235 L456,210Z" fill="#2EA1B5" opacity="0" filter="url(#pg)"><animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.3323;0.3533;0.4933;1" dur="6.0s" repeatCount="indefinite"/></path>
+<text x="506" y="215" text-anchor="middle" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="15" font-weight="700" fill="#2EA1B5">03</text>
+</g>
+<text x="506" y="340" text-anchor="middle" font-family="Inter, 'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#E6EDF7">Retrieve</text>
+<text x="506" y="366" text-anchor="middle" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="14.5" fill="#8A9BB4">hybrid + rerank</text>
+<g><animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0" dur="3.0s" repeatCount="indefinite"/>
+<ellipse cx="694" cy="296" rx="46" ry="12" fill="#000" opacity=".35"/>
+<path d="M644,210 L694,235 L694,281 L644,256Z" fill="#0C1628" stroke="#1C2A42" stroke-width="1" stroke-linejoin="round"/><path d="M744,210 L694,235 L694,281 L744,256Z" fill="#101C33" stroke="#1C2A42" stroke-width="1" stroke-linejoin="round"/><path d="M694,185 L744,210 L694,235 L644,210Z" fill="#13213A" stroke="#1C2A42" stroke-width="1" stroke-linejoin="round"/>
+<path d="M694,185 L744,210 L694,235 L644,210Z" fill="#8B5CF6" opacity=".18"/>
+<path d="M694,185 L744,210 L694,235 L644,210Z" fill="#8B5CF6" opacity="0" filter="url(#pg)"><animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.499;0.52;0.66;1" dur="6.0s" repeatCount="indefinite"/></path>
+<text x="694" y="215" text-anchor="middle" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="15" font-weight="700" fill="#8B5CF6">04</text>
+</g>
+<text x="694" y="340" text-anchor="middle" font-family="Inter, 'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#E6EDF7">Orchestrate</text>
+<text x="694" y="366" text-anchor="middle" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="14.5" fill="#8A9BB4">LangGraph agents</text>
+<g><animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0" dur="3.4s" repeatCount="indefinite"/>
+<ellipse cx="882" cy="296" rx="46" ry="12" fill="#000" opacity=".35"/>
+<path d="M832,210 L882,235 L882,281 L832,256Z" fill="#0C1628" stroke="#1C2A42" stroke-width="1" stroke-linejoin="round"/><path d="M932,210 L882,235 L882,281 L932,256Z" fill="#101C33" stroke="#1C2A42" stroke-width="1" stroke-linejoin="round"/><path d="M882,185 L932,210 L882,235 L832,210Z" fill="#13213A" stroke="#1C2A42" stroke-width="1" stroke-linejoin="round"/>
+<path d="M882,185 L932,210 L882,235 L832,210Z" fill="#E879F9" opacity=".18"/>
+<path d="M882,185 L932,210 L882,235 L832,210Z" fill="#E879F9" opacity="0" filter="url(#pg)"><animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.6657;0.6867;0.8267;1" dur="6.0s" repeatCount="indefinite"/></path>
+<text x="882" y="215" text-anchor="middle" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="15" font-weight="700" fill="#E879F9">05</text>
+</g>
+<text x="882" y="340" text-anchor="middle" font-family="Inter, 'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#E6EDF7">Act</text>
+<text x="882" y="366" text-anchor="middle" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="14.5" fill="#8A9BB4">tools via MCP</text>
+<g><animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0" dur="3.8s" repeatCount="indefinite"/>
+<ellipse cx="1070" cy="296" rx="46" ry="12" fill="#000" opacity=".35"/>
+<path d="M1020,210 L1070,235 L1070,281 L1020,256Z" fill="#0C1628" stroke="#1C2A42" stroke-width="1" stroke-linejoin="round"/><path d="M1120,210 L1070,235 L1070,281 L1120,256Z" fill="#101C33" stroke="#1C2A42" stroke-width="1" stroke-linejoin="round"/><path d="M1070,185 L1120,210 L1070,235 L1020,210Z" fill="#13213A" stroke="#1C2A42" stroke-width="1" stroke-linejoin="round"/>
+<path d="M1070,185 L1120,210 L1070,235 L1020,210Z" fill="#34D399" opacity=".18"/>
+<path d="M1070,185 L1120,210 L1070,235 L1020,210Z" fill="#34D399" opacity="0" filter="url(#pg)"><animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.8323;0.8533;0.9933;1" dur="6.0s" repeatCount="indefinite"/></path>
+<text x="1070" y="215" text-anchor="middle" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="15" font-weight="700" fill="#34D399">06</text>
+</g>
+<text x="1070" y="340" text-anchor="middle" font-family="Inter, 'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#E6EDF7">Answer</text>
+<text x="1070" y="366" text-anchor="middle" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="14.5" fill="#8A9BB4">grounded + evals</text>
+<path id="track" d="M130,210 L318,210 L506,210 L694,210 L882,210 L1070,210" fill="none"/>
+<g><animateMotion dur="6.0s" begin="0.0s" repeatCount="indefinite" keyPoints="0;1" keyTimes="0;1" calcMode="linear"><mpath href="#track" xlink:href="#track"/></animateMotion><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.05;.92;1" dur="6.0s" begin="0.0s" repeatCount="indefinite"/><circle r="5" fill="#36D7F0" filter="url(#pg)"/><circle r="11" fill="none" stroke="#36D7F0" stroke-opacity=".5"/></g>
+<g><animateMotion dur="6.0s" begin="2.0s" repeatCount="indefinite" keyPoints="0;1" keyTimes="0;1" calcMode="linear"><mpath href="#track" xlink:href="#track"/></animateMotion><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.05;.92;1" dur="6.0s" begin="2.0s" repeatCount="indefinite"/><circle r="5" fill="#8B5CF6" filter="url(#pg)"/><circle r="11" fill="none" stroke="#8B5CF6" stroke-opacity=".5"/></g>
+<g><animateMotion dur="6.0s" begin="4.0s" repeatCount="indefinite" keyPoints="0;1" keyTimes="0;1" calcMode="linear"><mpath href="#track" xlink:href="#track"/></animateMotion><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.05;.92;1" dur="6.0s" begin="4.0s" repeatCount="indefinite"/><circle r="5" fill="#FBBF24" filter="url(#pg)"/><circle r="11" fill="none" stroke="#FBBF24" stroke-opacity=".5"/></g>
+<text x="1164" y="418" text-anchor="end" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="13" fill="#4A5B76">the pattern behind multimodal_crag · multi_agentic_chatbot_cRAG · client work</text>
+</svg>

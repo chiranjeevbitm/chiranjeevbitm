@@ -1,87 +1,143 @@
-<div align="center">
-  <h1>Hi there! 👋 I'm Chiranjeev Kumar</h1>
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=2EA1B5&center=true&vCenter=true&width=800&lines=Data+Science+Consultant+at+Deloitte;Generative+AI+%26+LLMOps+Expert;Architecting+Agentic+Systems;Building+Scalable+GenAI+Pipelines" alt="Typing SVG" />
-</div>
+<!-- Profile README for github.com/chiranjeevbitm — every visual is a hand-built animated SVG in /assets -->
+
+<a href="https://chiranjeev-ai-engineer.vercel.app">
+  <img src="assets/hero.svg" width="100%" alt="Chiranjeev Kumar — GenAI Engineer and Data Science Consultant at Deloitte. Animated banner with a rotating 3D agent network." />
+</a>
 
 <p align="center">
-  <a href="https://linkedin.com/in/chiranjeev-kumar-07071997" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin" /></a>
-  <a href="mailto:chiranjeevkumar47@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <img src="https://img.shields.io/github/followers/chiranjeevbitm?style=for-the-badge&logo=github&color=333" alt="GitHub followers" />
+  <a href="#about"><kbd>&nbsp;01 · about&nbsp;</kbd></a>&nbsp;
+  <a href="#build"><kbd>&nbsp;02 · how i build&nbsp;</kbd></a>&nbsp;
+  <a href="#projects"><kbd>&nbsp;03 · projects&nbsp;</kbd></a>&nbsp;
+  <a href="#stack"><kbd>&nbsp;04 · stack&nbsp;</kbd></a>&nbsp;
+  <a href="#activity"><kbd>&nbsp;05 · activity&nbsp;</kbd></a>&nbsp;
+  <a href="#connect"><kbd>&nbsp;06 · connect&nbsp;</kbd></a>
 </p>
 
----
+<br/>
 
-## 👨‍💻 Professional Summary
+<a name="about"></a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/h-about-dark.svg">
+  <img src="assets/h-about-light.svg" width="100%" alt="01 / About">
+</picture>
 
-I am a **Data Science Consultant** specializing in **Generative AI**, **Large Language Models (LLMs)**, and **Agentic Systems**. With a proven track record designing, developing, and deploying production-grade AI solutions across Azure, AWS, and NVIDIA DGX, I bridge the gap between cutting-edge AI research and scalable enterprise execution.
+<img src="assets/about.svg" width="100%" alt="neofetch-style card: Data Science Consultant and AI/ML Engineer at Deloitte, leads a GenAI Centre of Excellence; focus on production GenAI, RAG, agentic systems and MCP; previously Tredence, Soroco, TCS; CSE at BIT Mesra, MSc ML and AI at LJMU, IIIT Bangalore; NVIDIA Agentic AI, Azure AI Engineer and Claude certified; Kaggle Notebooks Expert top 0.5%; co-founder of Arogya Sahayak." />
 
-- 🏢 **Currently:** Leading the design and delivery of incubator GenAI COE projects at **Deloitte**, heavily reducing preparation times through AI-driven automation.
-- 🚀 **Previously:** Developed scalable data pipelines on Databricks & PySpark at **Tredence Inc.** and engineered behavioral analysis models at **Soroco**.
-- 🎓 **Education:** Master’s degree in Machine Learning & AI from **Liverpool John Moores University (Distinction)**.
+I build **production GenAI for enterprises** — retrieval pipelines that stay grounded, multi-agent systems that hand work to each other cleanly, and the MCP plumbing that lets agents use real tools. At **Deloitte** I lead a **GenAI Centre of Excellence**, turning incubator ideas into systems that cut real hours out of real workflows.
 
----
+Outside work I co-founded **Arogya Sahayak** (clinic digitisation for rural and semi-urban Bihar) and I'm building **[Reel Studio](https://github.com/chiranjeevbitm/reel-studio)**, an open-source pipeline that turns a short brief into a finished vertical explainer reel.
 
-## 💼 Featured Portfolio
+<details>
+<summary><b>Experience</b> &nbsp;<sub>click to expand</sub></summary>
+<br/>
 
-| Project | Description |
-| :--- | :--- |
-| 🎓 **[shikshak-Sahayak](https://github.com/chiranjeevbitm/shikshak-Sahayak)** | State-of-the-art digital ecosystem and educational app for Bihar Board Educators. |
-| 🍎 **[Leadership-Insight-Agent](https://github.com/chiranjeevbitm/Leadership-Insight-Agent)** | RAG-powered conversational AI for analyzing Apple's corporate strategy. |
-| 🧠 **[multimodal_crag](https://github.com/chiranjeevbitm/multimodal_crag)** | Full-stack multimodal Corrective RAG pipeline processing PDFs, images, and text. |
-| 🤖 **[multi_agentic_chatbot_cRAG](https://github.com/chiranjeevbitm/multi_agentic_chatbot_cRAG)** | LangGraph-orchestrated AI application implementing corrective retrieval-augmented generation. |
-| 🩺 **[medguardian](https://github.com/chiranjeevbitm/medguardian)** | Real-time emergency response platform and safety ecosystem for physicians in India. |
+| | Where | What |
+|:-:|:--|:--|
+| 🟢 | **Deloitte** — Data Science Consultant · AI/ML Engineer | Lead the GenAI Centre of Excellence: incubator GenAI projects from design to delivery — RAG, agentic systems, MCP — across enterprise clients. |
+| ◽ | **Tredence Inc.** | Built scalable data pipelines on Databricks and PySpark. |
+| ◽ | **Soroco** | Engineered behavioural analysis models. |
+| ◽ | **TCS** | Where it started. |
+
+</details>
+
+<details>
+<summary><b>Certifications</b> &nbsp;<sub>click to expand</sub></summary>
+<br/>
+
+- **NVIDIA** — Certified Agentic AI
+- **Microsoft** — Azure AI Engineer Associate · Azure Data Scientist Associate
+- **Google Cloud** — Generative AI Leader
+- **Anthropic** — Claude Certified Associate, Developer & Architect (Foundations)
+- **Kaggle** — Notebooks Expert, top 0.5%
+
+</details>
+
+<details>
+<summary><b>Publications & awards</b> &nbsp;<sub>click to expand</sub></summary>
+<br/>
+
+- 📝 *TLCoV — An automated Covid-19 screening model* · ScienceDirect / Elsevier, 2021
+- 🏅 Deloitte Applause Award · Tredence Pat on the Back
+- 🎓 CSE, BIT Mesra · MSc Machine Learning & AI, Liverpool John Moores University (Distinction) · IIIT Bangalore
+
+</details>
+
+<br/>
+
+<a name="build"></a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/h-build-dark.svg">
+  <img src="assets/h-build-light.svg" width="100%" alt="02 / How I build">
+</picture>
+
+<img src="assets/pipeline.svg" width="100%" alt="Animated pipeline: 01 Ingest (PDF, image, text) → 02 Embed and index (Azure AI Search) → 03 Retrieve (hybrid + rerank) → 04 Orchestrate (LangGraph agents) → 05 Act (tools via MCP) → 06 Answer (grounded + evals), with a corrective CRAG loop from answer back to retrieval." />
+
+<br/><br/>
+
+<a name="projects"></a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/h-projects-dark.svg">
+  <img src="assets/h-projects-light.svg" width="100%" alt="03 / Featured work">
+</picture>
 
 <p align="center">
-    <i>Explore more of my work in my repositories!</i>
+  <a href="https://github.com/chiranjeevbitm/reel-studio"><img src="assets/cards/reel-studio.svg" width="49%" alt="Reel Studio — brief in, finished 9:16 explainer reel out" /></a>
+  <a href="https://github.com/chiranjeevbitm/multimodal_crag"><img src="assets/cards/multimodal_crag.svg" width="49%" alt="Multimodal CRAG — corrective RAG over PDFs, images and text" /></a>
+  <a href="https://github.com/chiranjeevbitm/multi_agentic_chatbot_cRAG"><img src="assets/cards/multi_agentic_chatbot_crag.svg" width="49%" alt="Multi-agent cRAG chatbot — LangGraph-orchestrated" /></a>
+  <a href="https://github.com/chiranjeevbitm/Leadership-Insight-Agent"><img src="assets/cards/leadership-insight-agent.svg" width="49%" alt="Leadership Insight Agent — RAG over Apple's corporate strategy" /></a>
+  <a href="https://github.com/chiranjeevbitm/medguardian"><img src="assets/cards/medguardian.svg" width="49%" alt="MedGuardian — emergency response platform for physicians in India" /></a>
+  <a href="https://github.com/chiranjeevbitm/shikshak-Sahayak"><img src="assets/cards/shikshak-sahayak.svg" width="49%" alt="Shikshak Sahayak — educational app for Bihar Board educators" /></a>
 </p>
 
----
+<br/>
 
-## 🛠️ The Tech Arsenal
+<a name="stack"></a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/h-stack-dark.svg">
+  <img src="assets/h-stack-light.svg" width="100%" alt="04 / Stack">
+</picture>
 
-### 🤖 Generative AI & LLMs
-<p align="left">
-  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" />
-  <img src="https://img.shields.io/badge/Azure_OpenAI-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white" />
-  <img src="https://img.shields.io/badge/LangGraph-2EA1B5?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Dataiku-2EA1B5?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/NVIDIA_DGX-76B900?style=for-the-badge&logo=nvidia&logoColor=white" />
-  <img src="https://img.shields.io/badge/RAG-4479A1?style=for-the-badge" />
-</p>
+<img src="assets/orbit.svg" width="100%" alt="Tech stack as a 3D orbit around a GenAI core. GenAI ring: LangChain, LangGraph, Azure OpenAI, Claude, MCP, NVIDIA DGX, RAG. Data and ML ring: Python, PySpark, Databricks, SQL, Pandas, MLflow, Dataiku, Azure AI Search. Ship ring: Docker, Kubernetes, GitHub Actions, React, TypeScript, Vercel, Playwright." />
 
-### 💻 Languages & Data Engineering
-<p align="left">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Apache_Spark-E25A1C?style=for-the-badge&logo=apache-spark&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
-</p>
+<details>
+<summary><b>Stack as plain text</b> &nbsp;<sub>for skimmers and screen readers</sub></summary>
+<br/>
 
-### ⚙️ MLOps, DevOps & Web
-<p align="left">
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-  <img src="https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
-  <img src="https://img.shields.io/badge/MLFlow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" />
-</p>
+**GenAI** — LangChain · LangGraph · Azure OpenAI · Claude · MCP · NVIDIA DGX · RAG / CRAG · multi-agent orchestration<br/>
+**Data & ML** — Python · PySpark · Databricks · SQL · Pandas · MLflow · Dataiku · Azure AI Search<br/>
+**Ship** — Docker · Kubernetes · GitHub Actions · React · TypeScript · Vercel · Playwright
 
----
+</details>
 
-## 🏆 Certifications & Publications
-- ✔️ **Certifications:** NVIDIA Certified Agentic AI, Google Generative AI For Leaders, Microsoft Azure Data Scientist Associate, Dataiku Core Designer.
-- 📝 **Publications:** *"TLCoV - An automated Covid-19 screening model"* (ScienceDirect/Elsevier, 2021).
-- 🏅 **Awards:** Deloitte Applause Award, Tredence Pat on the Back.
+<br/>
 
----
+<a name="activity"></a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/h-activity-dark.svg">
+  <img src="assets/h-activity-light.svg" width="100%" alt="05 / Activity">
+</picture>
 
-## 📊 Analytics & Impact
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="profile-3d-contrib/profile-3d-dark.svg">
+  <img src="profile-3d-contrib/profile-3d-light.svg" width="100%" alt="3D contribution calendar with language and activity breakdown, regenerated daily by a GitHub Action" />
+</picture>
 
-<div align="center">
-  <img height="165em" src="https://github-readme-stats.vercel.app/api?username=chiranjeevbitm&show_icons=true&hide_border=true&title_color=2EA1B5&icon_color=2EA1B5&theme=transparent&include_all_commits=true" />
-  <img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=chiranjeevbitm&layout=compact&hide_border=true&title_color=2EA1B5&text_color=000&theme=transparent" />
-</div>
+<br/><br/>
+
+<a name="connect"></a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/h-connect-dark.svg">
+  <img src="assets/h-connect-light.svg" width="100%" alt="06 / Connect">
+</picture>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=chiranjeevbitm&theme=transparent&hide_border=true&title_color=2EA1B5&ring=2EA1B5&fire=2EA1B5&currStreakNum=2EA1B5" alt="GitHub Streak" />
+  <a href="https://chiranjeev-ai-engineer.vercel.app"><img src="https://img.shields.io/badge/Portfolio-0A1120?style=for-the-badge&logo=vercel&logoColor=36D7F0" alt="Portfolio" /></a>
+  <a href="https://linkedin.com/in/chiranjeev-kumar-07071997"><img src="https://img.shields.io/badge/LinkedIn-0A1120?style=for-the-badge&logo=linkedin&logoColor=36D7F0" alt="LinkedIn" /></a>
+  <a href="mailto:chiranjeevkumar47@gmail.com"><img src="https://img.shields.io/badge/Email-0A1120?style=for-the-badge&logo=gmail&logoColor=36D7F0" alt="Email" /></a>
+  <a href="https://github.com/chiranjeevbitm?tab=followers"><img src="https://img.shields.io/github/followers/chiranjeevbitm?style=for-the-badge&logo=github&logoColor=36D7F0&label=Followers&color=0A1120" alt="GitHub followers" /></a>
 </p>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/footer-dark.svg">
+  <img src="assets/footer-light.svg" width="100%" alt="Thanks for stopping by — let's build something agentic." />
+</picture>

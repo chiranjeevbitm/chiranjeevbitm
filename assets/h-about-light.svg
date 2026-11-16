@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="86" viewBox="0 0 1200 86" role="img" aria-label="About — whoami, but longer">
+<title>About — whoami, but longer</title>
+<defs></defs>
+
+<text x="4" y="30" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="14" fill="#36D7F0">01 /</text>
+<text x="4" y="64" font-family="Inter, 'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="30" font-weight="800" fill="#0F172A" letter-spacing="-.5">About</text>
+<text x="115" y="64" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="16" fill="#57606A">whoami, but longer</text>
+<line x1="4" y1="78" x2="1196" y2="78" stroke="#D0D7DE" stroke-width="1.5"/>
+<rect x="4" y="76.5" width="160" height="3" rx="1.5" fill="#36D7F0"><animate attributeName="x" values="4;1036;4" dur="9s" repeatCount="indefinite"/><animate attributeName="width" values="160;60;160" dur="9s" repeatCount="indefinite"/></rect>
+</svg>
